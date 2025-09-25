@@ -22,6 +22,8 @@ npm run dev
 ```bash
 cd frontend
 npm install
+create .env file
+# Add VITE_API_URL=http://localhost:5000 to .env
 npm run dev
 ```
 4. **Access**
@@ -29,10 +31,17 @@ npm run dev
    Frontend: http://localhost:5173
    Backend API: http://localhost:5000/api
 
+## ScreenShots
+
+<img width="1909" height="892" alt="Screenshot 2025-09-26 002309" src="https://github.com/user-attachments/assets/c2945209-b671-4373-b391-a8b2bd31377f" />
+<img width="1915" height="898" alt="Screenshot 2025-09-26 002329" src="https://github.com/user-attachments/assets/e1bdb0be-eb48-46f6-9c67-eb10c37c5115" />
+<img width="1887" height="907" alt="Screenshot 2025-09-26 004309" src="https://github.com/user-attachments/assets/f05bec3c-0560-4c6b-bb24-ab1de569741a" />
+<img width="1915" height="898" alt="Screenshot 2025-09-26 002329" src="https://github.com/user-attachments/assets/e1bdb0be-eb48-46f6-9c67-eb10c37c5115" />
+
 ## Architecture
 
 Frontend (React): Handles user interaction, displays summaries and comparisons.
-   
+
 Backend (Node.js + Express + REST API): Provides REST endpoints for summarization, comparison, 
 suggestion, and history.
    
