@@ -1,0 +1,35 @@
+[
+  {
+    "id": "p1",
+    "title": "Acme Wireless Earbuds X1",
+    "description": "True wireless earbuds with ANC, 24h battery with case, IPX5 water-resistance.",
+    "price": 59.99,
+    "features": [
+      "Active Noise Cancellation",
+      "Bluetooth 5.3",
+      "USB-C fast charging",
+      "IPX5 splash resistant"
+    ],
+    "specs": { "battery": "24h with case", "codecs": ["AAC", "SBC"] }
+  },
+  {
+    "id": "p2",
+    "title": "SonicWave Over-Ear Pro",
+    "description": "Over-ear headphones with Hi-Res audio, 40mm drivers, up to 60h battery.",
+    "price": 129.0,
+    "features": [
+      "Hi-Res certified drivers",
+      "Multipoint Bluetooth",
+      "Comfort memory foam"
+    ],
+    "specs": { "battery": "60h", "driver": "40mm" }
+  },
+  {
+    "id": "p3",
+    "title": "Budget Bass Boost Headset",
+    "description": "Affordable on-ear headset with bass boost and inline mic.",
+    "price": 29.5,
+    "features": ["Inline microphone", "Bass boost"],
+    "specs": { "cable": "1.2m", "weight": "180g" }
+  }
+]
